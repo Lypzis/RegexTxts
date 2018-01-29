@@ -1,0 +1,18 @@
+// \$\d{4} ---> escape dollar sign then look for the four sequential numbers
+Today I earned $58327 but lost $3826
+
+//^\d+ ---> look for one or more number digits but only on the beggining of the line
+13 cats escaped from the 5 cages at the vet's clinic.
+
+//^b[aiu]t$ ---> match t on the end of the line
+This line does not match but the next line does
+bat
+
+//\bt\w+\b ---> '\b' represents either the beginning or end of a word
+Now that's the truth and you know it.
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+//John (Reginald )?Smith ---> Reginald may or may not be present
+John Reginald Smith is sometimes just called John Smith.
+
+//John (Reginal )? Smith ---> wrong way
+The problem with this regular expression is that it will match John Reginald Smith
+perfectly fine and John  Smith(two spaces between John and Smith) but not John Smith.
+Can you see why?
+
+//\b(\d{1,3}\.){3}\d{1,3}\b 
+The server has an address of 10.18.0.20 and printer has an address of 10.18.0.116
+
+//(\b[A-Z]\w+\b) Smith.*\1 Smith
+Harold Smith went to meet John Smith but John Smith was not there.
+
+//dog|cat ---> | or character
+Harold Smith has two dogs and a cats.
+
+//dog|cat|bird
+Harold Smith has two dogs, one cat and three birds.
+
+//(John|Harold) Smith
+Harold Smith went to meet John Smith but instead bumped into Jane Smith.
+
+/b4(?!000)\d\d\d\b ---> ?! negative lookahead, won't match the following 000
+This looks promising with 4020 and not 5000, but unfortunately also matches 4000.
