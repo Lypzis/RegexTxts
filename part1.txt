@@ -1,0 +1,33 @@
+The bat took a bite out of the big boring apple. 
+
+//th
+There is no theory of evolution. Only a list of animals
+Chuck Norris allows to live.
+
+//b.g ---> the '.' represents any character
+The big bag of bits was bugged.
+
+//l..e
+You can live like a king but make sure it isn't a lie.
+
+//t[eo]d ---> search for 't' folowed by 'e' or 'o' then 'd'
+When today is over Ted will have a tedious time tidying up the rod.
+
+//[1-8]
+//[1-49] ---> search a character between '1' and '4' or '9'
+Room Allocations: G4 G9 F2 H1 L0 K7 M9 
+
+//[1-5a-fx] ---> '1' to '5' or 'a' to 'f' or simply 'x'
+A random set of characters: y, w, a, r, f, 4, 9, 6, 3, p, x, t
+
+//t[^eo]d ---> '^' negates the 'e' or 'o' which is after 't'
+When today is over Ted will have a tedious time tidying up.
+
+//lo* --> item 'o' occurs zero or more times
+//l.*k
+//l.*?k
+Are you looking at the lock or the silk? 
+
+//this\. '\' escapes the character next to it
+Surely this regular expression should match this.
+
