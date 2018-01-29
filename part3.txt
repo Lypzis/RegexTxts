@@ -21,5 +21,9 @@ Harold Smith has two dogs, one cat and three birds.
 //(John|Harold) Smith
 Harold Smith went to meet John Smith but instead bumped into Jane Smith.
 
-/b4(?!000)\d\d\d\b ---> ?! negative lookahead, won't match the following 000
+//'?=x' ---> positive lookahead
+//\b4(?!000)\d\d\d\b ---> '?!x' negative lookahead, won't match the following 000
 This looks promising with 4020 and not 5000, but unfortunately also matches 4000.
+
+//(?<=[A-Z]\w* )Smith ---> positive lookbehind
+Now we won't identify Smith Francis but we will identify Harold Smith
